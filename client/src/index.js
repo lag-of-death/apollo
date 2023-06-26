@@ -39,12 +39,12 @@ const client = new ApolloClient({
 ReactDOM.render(
     <ApolloProvider client={client}>
         <div>
-            {/*<QueryEntityExample title="lol" id={10}/>*/}
+            <QueryEntityExample title="lol" id={10}/>
             {/*<QueryEntityExampleWithPolling videoId={33} pollInterval={10000}/>*/}
             {/*<QueryEntitiesExample />*/}
-            <MutationExample />
+            {/*<MutationExample />*/}
             {/*<HybridExample videoId={0} pollInterval={5000}/>*/}
-            <SubscriptionExample />
+            {/*<SubscriptionExample />*/}
         </div>
     </ApolloProvider>,
     document.getElementById('root')

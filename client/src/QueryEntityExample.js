@@ -31,7 +31,7 @@ class QueryExample extends Component {
     }
 
     state = {
-        videoId: this.props.videoId
+        videoId: this.props.videoId || 10
     }
 
     _setVideoId = evt => {
